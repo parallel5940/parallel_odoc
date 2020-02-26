@@ -58,7 +58,6 @@ class Main{
             case "*" : return (i1*i2==answer?"Yes":"No");
             case "/" : return (i1/i2==answer?"Yes":"No");
         }
-
         return "No";
     }
 }
