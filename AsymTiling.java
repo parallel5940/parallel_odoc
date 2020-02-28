@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
-class AsymTiling {
+class AsymTiling { 
 	
 	private static int[] cache = new int[101];
 	private static final int INF = 1000000007;
