@@ -39,6 +39,7 @@ public class BoardCover {
         for (int i = 0; i < testCase; i++) {
             System.out.println(countingCase[i]);
         }
+        scn.close();
     }
 
     public static int countCase(final int board[][], final int canCover, final int current, final int col,
