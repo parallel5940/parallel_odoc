@@ -18,7 +18,9 @@ class BoardCover2 {
                 final char[] temp = st.nextToken().toCharArray();
                 for (int j = 0; j < table[i].length; j++) {
                     table[i][j] = temp[j];
+                    Pair<i,j>
                 }
+
             }
         }
     }
