@@ -11,7 +11,7 @@ public class BoardCover2 {
     static int blockWidth, blockHeight, maxBlockCount;
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        BoardCover2 boardCover2 = new BoardCover2();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int cases = Integer.parseInt(bufferedReader.readLine());
         while (cases-- > 0) {
@@ -37,8 +37,8 @@ public class BoardCover2 {
                     block[i][j] = row[j] == '#';
                 }
             }
-            main.makeSettingCase();
-            main.countMaxBlock(0, 0, 0, blanckCount);
+            boardCover2.makeSettingCase();
+            boardCover2.countMaxBlock(0, 0, 0, blanckCount);
             System.out.println(maxBlockCount);
         }
     }
