@@ -16,6 +16,7 @@ public class Problem1261 {
         }
         visited = new boolean[m][n];
         System.out.println(solve(arr));
+        sc.close();
     }
 
     static int[][] dir = { { 0, 1 }, { 1, 0 }, { -1, 0 }, { 0, -1 } };

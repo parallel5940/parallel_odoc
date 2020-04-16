@@ -106,5 +106,6 @@ class Brackets2 {
                 System.out.println(printValue[i]);
             }
         }
+        sc.close();
     }
 }
