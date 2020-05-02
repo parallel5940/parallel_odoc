@@ -24,15 +24,15 @@ public class BFS {
 
         StringTokenizer stringTokenizer = new StringTokenizer(size);
 
-        int M = Integer.parseInt(stringTokenizer.nextToken());// 가로의 길이(열의 수)
-        int N = Integer.parseInt(stringTokenizer.nextToken());// 세로의 길이(행의 수)
+        int M = Integer.parseInt(stringTokenizer.nextToken());
+        int N = Integer.parseInt(stringTokenizer.nextToken());
 
         int[][] maze = new int[N][M];
         int[][] dist = new int[N][M];
         boolean[][] check = new boolean[N][M];
 
-        int[] dx = { 0, 1, 0, -1 };// 수직이동(행 증감)
-        int[] dy = { 1, 0, -1, -0 };// 수평이동(열 증감)
+        int[] dx = { 0, 1, 0, -1 };
+        int[] dy = { 1, 0, -1, -0 };
 
         for (int i = 0; i < N; i++) {
             String input = br.readLine();
