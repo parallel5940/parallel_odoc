@@ -34,6 +34,6 @@ class Stock {
         }
         downSeconds.add(0);
 
-        return downSeconds.stream().mapToint(i->i)toArray());
+        return downSeconds.stream().mapToint(i -> i, toArray());
     }
 }

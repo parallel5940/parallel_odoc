@@ -64,7 +64,6 @@ public class BFS {
                     queue.addFirst(new Node(next_x, next_y));
                 }
                 check[next_x][next_y] = true;
-
             }
         }
         System.out.println(dist[N - 1][M - 1]);
