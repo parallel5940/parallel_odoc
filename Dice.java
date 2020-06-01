@@ -73,6 +73,7 @@ public class Main {
                 System.out.println(dice[1]);
             }
             k--;
+
         }
     }
 }
